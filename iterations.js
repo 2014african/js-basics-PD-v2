@@ -7,3 +7,4 @@ while (d > 9) {
     d--;
     console.log(d + " reizes")
 }
+
