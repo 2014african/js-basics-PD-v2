@@ -7,3 +7,20 @@ Piem., izsaucot funkciju ar argumentu "title" tiek izprintēti abu grāmatu nosa
 Izmantojiet `bracket notation` jeb [attribute], lai dinamiski padotu atribūta nosaukumu.
 Izsauciet funkciju divas reizes ar sekojošiem argumentiem - "title" un "author". */
 
+
+
+const books = [
+    { title: "harijs Potters", author: "Adrians polis", isAvailable: true },
+    { title: "Tigeris uz akmens", author: "Rinalds gorsanovs", isAvailable: false }
+]
+
+function printBookInfo(attribute) {
+    for (let i = 0; i < books.length; i++) {
+        console.log(books[i][attribute])
+    }
+}
+
+printBookInfo("title")
+printBookInfo("author")
+
+
