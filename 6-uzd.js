@@ -27,6 +27,7 @@ for (let i = 0; i < saraksts.length; i++) {
        console.log(saraksts[i].vards)
 
 }
-
-let summa = 0
-
+for (let i = 0; i < saraksts.length; i++) {
+   summa = i + saraksts[i].stundas
+   console.log("summa: " + summa)
+}
